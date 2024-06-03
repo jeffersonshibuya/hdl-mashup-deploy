@@ -1,0 +1,89 @@
+* {
+  font-family: 'Lato', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-smooth: auto;
+  scroll-behavior: smooth;
+}
+
+.back-color {
+  background-color:  #DCEBF8;
+}
+
+.nav-link {
+  color:  #007167 !important;
+}
+
+.menu-link-active {
+  color: white !important;
+  background-color: #007167 !important;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+
+
+.text-primary {
+  color: #007167 !important;
+}
+.text-secondary {
+  color:  #DCEBF8 !important;
+}
+.text-gray {
+  color: #98989A !important;
+}
+
+.bg-primary {
+  background-color: #007167 !important;
+}
+.bg-secondary {
+  background-color:  #DCEBF8 !important;
+}
+.bg-gray {
+  background-color: #98989A !important;
+}
+
+.border-primary {
+  border-color: #007167 !important;
+}
+.border-secondary {
+  border-color:  #DCEBF8 !important;
+}
+
+.content-section {
+  padding: 30px 0;
+}
+
+.content-section::before {
+  content: "";
+  display: block;
+  height: 8rem; /* Same height as the header */
+  margin-top: -3rem; /* Negative margin equal to header height */
+  visibility: hidden;
+}
+
+
+.qdt-selections .MuiGrid-root {
+  border: none;
+  background-color: white !important;
+}
+
+button.MuiButton-root {
+  background-color: white !important;
+  color: #007167;
+  /* border-rigth: 1px solid white; */
+  padding: 0 5px;
+  height: 38px;
+}
+
+/* button.MuiButton-root > span:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  display: none;
+}  */
+button.MuiButton-root > span:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  background-color: none;
+} 
+
+button.MuiButtonBase-root:nth-child(2) > span:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+  background-color:  #DCEBF8;
+}
